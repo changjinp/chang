@@ -1,0 +1,45 @@
+body {
+  background-color: #ccc;
+}
+/* .login-page {
+  height: 100vh;
+  background-color: #ccc;
+} */
+
+.login-page {
+  margin-top: 150px;
+}
+
+.login {
+  width: 400px;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 20px;
+  position: relative;
+}
+
+.login-form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table tr td {
+  margin-bottom: 10px;
+
+  /* display: inline-block; */
+}
+table tr > td:nth-child(even) {
+  margin-left: 5px;
+}
+
+.loginbtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+body,
+button {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.mytitle {
+  background-image: url(/test/img/iu-image.jpg);
+  background-image: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.textbox {
+  background-color: rgba(211, 211, 211, 0.8);
+
+  margin-top: 40%;
+  padding: 5px;
+}
+
+.join {
+  width: 400px;
+
+  text-align: center;
+}
+
+label {
+  width: 40px;
+  display: inline-block;
+}
+
+.logbox {
+  width: 400px;
+  text-align: center;
+}
+
+.logbox button {
+  padding: 4px 12px;
+}

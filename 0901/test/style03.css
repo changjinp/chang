@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.login-page {
+  height: 100vh;
+  background-color: #ccc;
+}
+.login {
+  width: 400px;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 20px;
+  position: relative;
+}
+
+.box1 {
+  width: 400px;
+  height: 100px;
+  background-color: gray;
+  opacity: 80%;
+  position: absolute;
+  left: 760px;
+  top: 260px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+.login-form {
+  margin-top: 10px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table tr td {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+table tr > td:nth-child(even) {
+  margin-left: 5px;
+}
+
+.loginbtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+}

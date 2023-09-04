@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    p {
+      counter-increment: rint;
+    }
+    p::before {
+      content: counter(rint) ".";
+    }
+    p::after {
+      content: "~"attr(data-page) "page";
+    }
+    p::first-letter {
+      font-size: 3em;
+    }
+  </style>
+  <body>
+    <h1>lorem ips</h1>
+    <p data-page="52">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum iste vitae
+      modi totam at, officiis quam. Maiores quae quasi magni aliquam amet.
+      Quidem inventore molestias vitae esse cum non saepe? Lorem, ipsum dolor
+      sit amet consectetur adipisicing elit. Earum iste vitae modi totam at,
+      officiis quam. Maiores quae quasi magni aliquam amet. Quidem inventore
+      molestias vitae esse cum non saepe?
+    </p>
+    <p data-page="273">
+      arum iste vitae modi totam at, officiis quam. Maiores quae quasi magni
+      aliquam amet. arum iste vitae modi totam at, officiis quam. Maiores quae
+      quasi magni aliquam amet. arum iste vitae modi totam at, officiis quam.
+      Maiores quae quasi magni aliquam amet. arum iste vitae modi totam at,
+      officiis quam. Maiores quae quasi magni aliquam amet. arum iste vitae modi
+      totam at, officiis quam. Maiores quae quasi magni aliquam amet.
+    </p>
+  </body>
+</html>

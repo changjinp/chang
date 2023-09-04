@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      list-style: none;
+      text-decoration: none;
+    }
+
+    li {
+      float: left;
+      padding: 15px;
+    }
+
+    ul li:first-child > a {
+      color: aqua;
+    }
+
+    li:first-child {
+      border-radius: 10px 0 0 10px;
+    }
+    li:last-child {
+      border-radius: 0 10px 10px 0;
+    }
+    li:nth-child(2n) {
+      background-color: pink;
+    }
+    li:nth-child(2n + 1) {
+      background-color: orange;
+    }
+  </style>
+  <body>
+    <ul>
+      <li><a href="">홈</a></li>
+      <li><a href="">홈ddd</a></li>
+      <li><a href="">홈dadadad</a></li>
+      <li><a href="">홈aaaa</a></li>
+      <li><a href="">홈zz</a></li>
+      <li><a href="">홈ddwq</a></li>
+      <li><a href="">홈qqdqd</a></li>
+    </ul>
+  </body>
+</html>

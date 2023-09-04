@@ -1,0 +1,13 @@
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+col:nth-child(odd) {
+  background-color: gainsboro;
+}

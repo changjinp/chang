@@ -1,0 +1,33 @@
+fieldset {
+  width: 520px;
+}
+
+#second {
+  margin-top: 50px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.box {
+  width: 470px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+#food {
+  margin-top: 20px;
+}
+
+#opt {
+  margin-top: 20px;
+}

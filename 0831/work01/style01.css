@@ -1,0 +1,21 @@
+form {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+table {
+  border: 1px solid blue;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  padding: 5px;
+}
+
+.login {
+  width: 105px;
+  margin-top: 20px;
+}
