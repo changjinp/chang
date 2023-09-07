@@ -1,0 +1,36 @@
+#graph {
+  width: 610px;
+  border: 3px solid #000;
+}
+.bar {
+  width: 10px;
+  height: 50px;
+  margin: 5px;
+  background-color: orange;
+  transition-duration: 3s;
+}
+
+/* #graph:hover > .bar {
+  width: 600px;
+} */
+
+#graph:hover > .bar:nth-child(1) {
+  background-color: red;
+  width: 100px;
+}
+#graph:hover > .bar:nth-child(2) {
+  background-color: blue;
+  width: 300px;
+}
+#graph:hover > .bar:nth-child(3) {
+  background-color: pink;
+  width: 400px;
+}
+#graph:hover > .bar:nth-child(4) {
+  background-color: orange;
+  width: 500px;
+}
+#graph:hover > .bar:nth-child(5) {
+  background-color: olivedrab;
+  width: 600px;
+}
