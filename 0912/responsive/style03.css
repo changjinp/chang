@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+}
+
+#wrap {
+  width: 100%;
+}
+
+.header {
+  border: 1px solid #000;
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.gnb {
+  display: flex;
+  gap: 40px;
+}
+.gnb li {
+  border: 1px solid #000;
+  padding: 14px 20px;
+}
+.gnb li a {
+}
+
+.lnb {
+  display: flex;
+}
+.lnb li {
+  margin: 10px;
+  border: 1px solid #000;
+}
+.lnb li a {
+}
