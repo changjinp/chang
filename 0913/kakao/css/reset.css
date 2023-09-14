@@ -1,0 +1,19 @@
+@font-face {
+  font-family: nanumfont;
+  src: url(/kakao/font/NanumSquareNeo-aLt.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "nanumfont";
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
