@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.cover {
+  width: auto;
+  border: 1px solid blue;
+  aspect-ratio: 20/9;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  /* display: block 이랑 차이 알아보자 */
+  vertical-align: top;
+}
+.cover-src {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.main_title {
+  color: #fff;
+  font-size: clamp(24px, 10vw, 120px);
+  font-family: impact;
+  line-height: 0.8;
+  margin-top: -1em;
+  position: relative;
+}
+.main {
+  border: 1px solid red;
+}
+
+.contents {
+  padding: 40px 0;
+  display: grid;
+  gap: 20px;
+  /* 최소크기 200에서 1fr 까지만 커진다  */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
