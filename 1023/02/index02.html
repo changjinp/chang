@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style02.css" />
+    <script defer src="script02.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>BOOK LIST</h1>
+      <form>
+        <ul id="bookInfo">
+          <li>
+            <label for="title">제목</label>
+            <input id="title" type="text" />
+          </li>
+          <li>
+            <label for="author">저자</label>
+            <input id="author" type="text" />
+          </li>
+        </ul>
+        <div class="boxItem">
+          <input id="btn" type="submit" value="저장하기" />
+          <input type="reset" value="취소하기" />
+        </div>
+      </form>
+      <ul id="booklist"></ul>
+    </div>
+  </body>
+</html>
