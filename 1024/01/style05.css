@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  background: #ddd;
+  padding: 1em 3em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #222;
+  border: 1px solid #000;
+}
+
+#noti-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.noti {
+  background: #eee;
+  padding: 1em;
+  margin: 1em;
+  border-left: 3px solid #222;
+}
