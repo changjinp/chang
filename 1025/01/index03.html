@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script03.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>팀원 추첨</h1>
+    <form action="/choice_process" method="get">
+      <label for="seed"><input id="seed" type="text" />명 중에</label>
+      <label for="total"><input id="total" type="text" />몇 뽑기</label>
+      <input type="submit" id="raffle" value="추첨" />
+      <input type="reset" id="clear" value="지우기" />
+    </form>
+    <div id="result"></div>
+  </body>
+</html>
